@@ -1,0 +1,16 @@
+[
+  {
+    "patientId": "P-1001",
+    "triageScore": 92,
+    "triageCategory": "RED",
+    "queuePriority": 1,
+    "reasons": ["Hypoxia", "Tachycardia", "Respiratory distress"]
+  },
+  {
+    "patientId": "P-1002",
+    "triageScore": 74,
+    "triageCategory": "YELLOW",
+    "queuePriority": 2,
+    "reasons": ["Chest pain", "Elevated blood pressure"]
+  }
+]

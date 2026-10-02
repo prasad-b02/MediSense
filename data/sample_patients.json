@@ -1,0 +1,34 @@
+[
+  {
+    "patientId": "P-1001",
+    "name": "Aisha Khan",
+    "age": 34,
+    "sex": "F",
+    "chiefComplaint": "Shortness of breath",
+    "preexistingConditions": ["Asthma"],
+    "vitals": {
+      "heartRate": 118,
+      "systolic": 96,
+      "diastolic": 64,
+      "oxygenSaturation": 89,
+      "respiratoryRate": 26,
+      "temperature": 37.1
+    }
+  },
+  {
+    "patientId": "P-1002",
+    "name": "Daniel Ortiz",
+    "age": 58,
+    "sex": "M",
+    "chiefComplaint": "Chest pain",
+    "preexistingConditions": ["Hypertension"],
+    "vitals": {
+      "heartRate": 102,
+      "systolic": 138,
+      "diastolic": 90,
+      "oxygenSaturation": 95,
+      "respiratoryRate": 18,
+      "temperature": 36.8
+    }
+  }
+]

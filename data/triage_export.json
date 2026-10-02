@@ -1,0 +1,16 @@
+[
+  {
+    "patientId": "P-1001",
+    "priority": 1,
+    "triageCategory": "CRITICAL",
+    "score": 92,
+    "note": "Immediate airway and oxygen support indicated."
+  },
+  {
+    "patientId": "P-1002",
+    "priority": 2,
+    "triageCategory": "URGENT",
+    "score": 74,
+    "note": "Cardiac review recommended within 30 minutes."
+  }
+]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediSense Triage Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <header class="topbar">
+        <h1>MediSense</h1>
+        <button id="refresh-btn">Refresh Queue</button>
+    </header>
+
+    <main class="dashboard">
+        <section class="panel queue-panel">
+            <h2>Triage Queue</h2>
+            <table id="queue-table">
+                <thead>
+                    <tr>
+                        <th>Patient ID</th>
+                        <th>Score</th>
+                        <th>Category</th>
+                        <th>Priority</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <section class="panel patient-panel">
+            <h2>Patient Overview</h2>
+            <div id="patient-card">Select a patient to view details.</div>
+        </section>
+    </main>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/charts.js"></script>
+    <script src="/js/audio.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
